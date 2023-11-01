@@ -6,9 +6,20 @@ body {
     padding: 0;
 }
 
-#introduction {
+#introduction h1 {
+    font-size: 24px;
+    color: #444;
+}
+
+#education {
     padding: 20px;
-    text-align: center;
+}
+
+#education h2, #projects h2 {
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-top: 40px;
 }
 
 #projects {
@@ -17,7 +28,14 @@ body {
     justify-content: space-around;
 }
 
+.project h3 {
+    font-size: 18px;
+}
+
 .project {
     margin: 20px;
     text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
 }
